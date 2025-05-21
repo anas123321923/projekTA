@@ -1,0 +1,33 @@
+# Node modules (folder besar hasil instalasi npm/yarn)
+node_modules/
+
+# Folder build/output
+dist/
+build/
+
+# File environment (berisi rahasia API key, database, dsb.)
+.env
+.env.local
+.env.development
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Optional: jika pakai testing
+coverage/
+
+# Optional: lock files (jika kamu pakai hanya salah satu package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
